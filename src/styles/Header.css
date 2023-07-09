@@ -1,0 +1,44 @@
+@font-face {
+    font-family: speedy;
+    src: url(../../public/fonts/SpeedyRegular-7BLoE.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: speedy;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.92);
+    width: 100%;
+
+}
+.logo{
+    margin: 10px 50px;
+    height: 70px;
+    width: 70px;
+    background-image: url(../assets/Spider-man-logo_red.png);
+    background-repeat: round;
+}
+.nav{
+    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li{
+    padding: 0 10px;
+    list-style: none;
+}
+.nav a{
+    color: #ED1D27;
+
+}
+.nav a.active{
+    color: #ff000d;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}

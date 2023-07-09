@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.92);
+    bottom: 0;
+    left: 0;
+
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  
+
+  .fa:hover  {
+    opacity: 1;
+  }
+
+  .fa-facebook , .fa-linkedin , .fa-instagram , .fa-twitter {
+    color: #ED1D27;
+    opacity: 0.7;
+    transition: 0.1s;
+  }
+
+  .copyright{
+    color: #ED1D27;
+    opacity: 0.7;
+  }
+  
