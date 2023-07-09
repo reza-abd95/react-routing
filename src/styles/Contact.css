@@ -17,7 +17,7 @@ form{
 }
 .left{
     width: 40%;
-    background-image: url("../../public/image/peter.jpg");
+    background-image: url("/image/peter.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
